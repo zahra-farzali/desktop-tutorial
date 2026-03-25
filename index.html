@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Album</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎬 Digital Album</h1>
+
+<h2>Upload Video</h2>
+
+<form id="uploadForm">
+    <input type="text" name="title" placeholder="Title"><br>
+    <textarea name="description"></textarea><br>
+    
+    <select name="category">
+        <option>Music</option>
+        <option>Sport</option>
+    </select><br>
+
+    <input type="file" name="video"><br>
+    <input type="file" name="thumbnail"><br>
+
+    <button>Upload</button>
+</form>
+
+<hr>
+
+<h2>Videos</h2>
+<div id="videos"></div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
